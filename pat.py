@@ -310,53 +310,55 @@
 #             star2 += '  '
 #     print(sp + star1 + star2)  
 # 24.	Hollow Butterfly Pattern
-n = 5
-for i in range(1,n+1):
-    st1 = ''
-    for j in range(1,i+1):
-        if i==1 :
-            st1 += '* '
-        elif j==1 or j==i:
-            st1 += '* '
-        else:
-            st1 += '  '        
-    sp1 = ''
-    for j in range(i,n):
-        sp1 += '  ' 
-    sp2 = ''
-    for j in range(i,n):
-        sp2 += '  '
-    st2 = ''    
-    for j in range(1,i+1):
-        if i==1 :
-            st2 += '* '
-        elif j==1 or j==i:
-            st2 += '* '
-        else:
-            st2 += '  ' 
-    print(st1+sp1+sp2+st2)  
-for i in range(n,0,-1):
-    st1 = ''
-    for j in range(1,i+1):
-        if i==1 :
-            st1 += '* '
-        elif j==1 or j==i:
-            st1 += '* '
-        else:
-            st1 += '  '        
-    sp1 = ''
-    for j in range(i,n):
-        sp1 += '  ' 
-    sp2 = ''
-    for j in range(i,n):
-        sp2 += '  '
-    st2 = ''    
-    for j in range(1,i+1):
-        if i==1 :
-            st2 += '* '
-        elif j==1 or j==i:
-            st2 += '* '
-        else:
-            st2 += '  ' 
-    print(st1+sp1+sp2+st2)                                                
+# n = 5
+# for i in range(1,n+1):
+#     st1 = ''
+#     for j in range(1,i+1):
+#         if i==1 :
+#             st1 += '* '
+#         elif j==1 or j==i:
+#             st1 += '* '
+#         else:
+#             st1 += '  '        
+#     sp1 = ''
+#     for j in range(i,n):
+#         sp1 += '  ' 
+#     sp2 = ''
+#     for j in range(i,n):
+#         sp2 += '  '
+#     st2 = ''    
+#     for j in range(1,i+1):
+#         if i==1 :
+#             st2 += '* '
+#         elif j==1 or j==i:
+#             st2 += '* '
+#         else:
+#             st2 += '  ' 
+#     print(st1+sp1+sp2+st2)  
+# for i in range(n,0,-1):
+#     st1 = ''
+#     for j in range(1,i+1):
+#         if i==1 :
+#             st1 += '* '
+#         elif j==1 or j==i:
+#             st1 += '* '
+#         else:
+#             st1 += '  '        
+#     sp1 = ''
+#     for j in range(i,n):
+#         sp1 += '  ' 
+#     sp2 = ''
+#     for j in range(i,n):
+#         sp2 += '  '
+#     st2 = ''    
+#     for j in range(1,i+1):
+#         if i==1 :
+#             st2 += '* '
+#         elif j==1 or j==i:
+#             st2 += '* '
+#         else:
+#             st2 += '  ' 
+#     print(st1+sp1+sp2+st2) 
+
+n = 5                                         
         
